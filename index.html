@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Private Chat Room</title>
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      overflow: hidden;
+      font-family: sans-serif;
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+    }
+    header {
+      background: #f0f0f0;
+      padding: 10px;
+      border-bottom: 1px solid #ccc;
+    }
+    h1 {
+      margin: 0;
+      font-size: 1.2em;
+    }
+    p {
+        margin: 5px 0 0;
+        font-size: 0.9em;
+    }
+    .chat-container {
+      flex-grow: 1;
+    }
+    iframe {
+      border: none;
+      width: 100%;
+      height: 100%;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Welcome to Your Private Chat Room</h1>
+      <p>This is a private space. Only people with the link to this page can join.</p>
+    </header>
+    <div class="chat-container">
+      <iframe src="https://hack.chat/?ee27c857a04dc149527aa33cbdc14eb5e5a239a101c8f7ee127d5e0aebe67dbe"></iframe>
+    </div>
+  </div>
+</body>
+</html>
